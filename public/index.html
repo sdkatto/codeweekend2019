@@ -3,20 +3,412 @@
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="theme-color" content="#000000" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>React App</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <title>HTML & CSS Workshop - Codeweekend 2019</title>
   </head>
   <body>
-    <section><h1>This will be the introduction section</h1></section>
-    <section><h1>This will be the outline section.</h1></section>
-    <section><h1>This will be the history section.</h1></section>
-    <section><h1>This will be the html section.</h1></section>
-    <section><h1>This will be the css section.</h1></section>
-    <section><h1>This will be the moving forward section.</h1></section>
+    <nav></nav>
+    <section id="hero" class="bg-primary text-white">
+      <div class="container">
+        <div class="row" style="height: 100vh;">
+          <div
+            class="col text-center d-flex justify-content-center align-items-center"
+          >
+            <div>
+              <h1 class="display-1">codeweekend 2019</h1>
+              <h4>HTML & CSS Workshop by Aria Cordero</h4>
+              <h4>
+                <a class="text-white" href="https://codeweekend.aria.ph/">
+                  codeweekend.aria.ph
+                </a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="intro" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>who am i</h1>
+            <span>
+              <p>Hi, my name is Aria!</p>
+              <p>You can find me at the following:</p>
+              <ul>
+                <li><a href="https://github.com/fengxiaoyue">GitHub</a></li>
+                <li><a href="https://gitlab.com/fengxiaoyue">GitLab</a></li>
+                <li>
+                  <a href="https://www.linkedin.com/in/ariafong/">LinkedIn</a>
+                </li>
+                <li><a href="https://twitter.com/f_xyue">Twitter</a></li>
+                <li>My website at <a href="https://aria.ph">aria.ph</a></li>
+                <li>Email me at <a href="mailto:hi@aria.ph">hi@aria.ph</a></li>
+              </ul>
+              <p>
+                I'm a <b>software engineer</b> working for
+                <a href="https://www.thinkingpandas.com/">Thinking Pandas</a>
+                and current <b>Vice President for Innovation</b> at
+                <a href="https://developh.org/">Developh</a>.
+              </p>
+            </span>
+            <h1>what i do</h1>
+            <p>
+              I design and develop web applications. I also do graphic design.
+            </p>
+            <h1>why i'm doing this</h1>
+            <span>Just because it's fun. Why not?</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="outline" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>workshop outline</h1>
+            <ul>
+              <li><a href="#html">html</a></li>
+              <li><a href="#css">css</a></li>
+              <li><a href="#principles">software development principles</a></li>
+              <li><a href="#repo">links to this repo</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="html" class="my-5">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col">
+            <h1>grab your favorite text editors, it's time to get coding</h1>
+            <h6>I personally recommend the following:</h6>
+            <!-- TODO: Image List of Text Editors -->
+            <div class="row">
+              <div class="col-2">Visual Studio Code</div>
+              <div class="col-2">Sublime Text</div>
+              <div class="col-2">Atom</div>
+              <div class="col-2">Vim</div>
+              <div class="col-2">Notepad ++</div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col">
+            <h1>project</h1>
+            <p>
+              For this workshop, we'll be making a simple <b>About</b> website
+              about yourself and your team.
+            </p>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col">
+            <h1>html tags</h1>
+            <div class="text-center my-5">
+              <h1 class="display-4">
+                <code>&lt;div&gt;&lt;h1&gt;</code>Hello World!<code
+                  >&lt;/h1&gt;&lt;/div&gt;</code
+                >
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col"><h4>Step One: HTML Structure</h4></div>
+          <div class="col-12">
+            <p
+              class="codepen"
+              data-height="200"
+              data-theme-id="0"
+              data-default-tab="html,result"
+              data-user="fengxiaoyue"
+              data-slug-hash="QzXQPG"
+              style="height: 324px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;"
+              data-pen-title="QzXQPG"
+            >
+              <span
+                >See the Pen
+                <a href="https://codepen.io/fengxiaoyue/pen/QzXQPG/"> QzXQPG</a>
+                by Aria Fong (<a href="https://codepen.io/fengxiaoyue"
+                  >@fengxiaoyue</a
+                >) on <a href="https://codepen.io">CodePen</a>.</span
+              >
+            </p>
+            <script
+              async
+              src="https://static.codepen.io/assets/embed/ei.js"
+            ></script>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col"><h4>Step Two: Add Content</h4></div>
+          <div class="col-12">
+            <p
+              class="codepen"
+              data-height="650"
+              data-theme-id="0"
+              data-default-tab="html,result"
+              data-user="fengxiaoyue"
+              data-slug-hash="QzXmNv"
+              style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;"
+              data-pen-title="Add Content"
+            >
+              <span
+                >See the Pen
+                <a href="https://codepen.io/fengxiaoyue/pen/QzXmNv/">
+                  Add Content</a
+                >
+                by Aria Fong (<a href="https://codepen.io/fengxiaoyue"
+                  >@fengxiaoyue</a
+                >) on <a href="https://codepen.io">CodePen</a>.</span
+              >
+            </p>
+            <script
+              async
+              src="https://static.codepen.io/assets/embed/ei.js"
+            ></script>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col">
+            <h4>
+              Step Three: Grid Systems <em>(and why everyone is using it)</em>
+            </h4>
+            <div class="w-50">
+              <img
+                src="https://developers.google.com/web/updates/images/2017/01/css-grid/examplelayout.png"
+                alt="Grid Example Layout"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col">
+            <h4>Step Four: Meta Tags</h4>
+            <ul>
+              <li><a href="https://metatags.io/">Meta Tags</a></li>
+            </ul>
+            <div>
+              <p
+                class="codepen"
+                data-height="265"
+                data-theme-id="0"
+                data-default-tab="html,result"
+                data-user="fengxiaoyue"
+                data-slug-hash="ebwqJo"
+                style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;"
+                data-pen-title="ebwqJo"
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/fengxiaoyue/pen/ebwqJo/">
+                    ebwqJo</a
+                  >
+                  by Aria Fong (<a href="https://codepen.io/fengxiaoyue"
+                    >@fengxiaoyue</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://static.codepen.io/assets/embed/ei.js"
+              ></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="css" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>using css with html</h1>
+            <h1>css learning resources</h1>
+            <ul>
+              <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+              <li>
+                <a href="https://scrimba.com/g/gintrotocss">
+                  Introduction to CSS
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col">
+            <h1 class="display-4">
+              <pre>
+                <code>
+    h1 {
+      color: #000000;
+      font-size: 12pt;
+    }
+                </code>
+              </pre>
+            </h1>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col">
+            <h4>Step One: Colors and Fonts</h4>
+            <div>
+              <p
+                class="codepen"
+                data-height="500"
+                data-theme-id="0"
+                data-default-tab="css,result"
+                data-user="fengxiaoyue"
+                data-slug-hash="NeZQRz"
+                style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;"
+                data-pen-title="Colors and Fonts"
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/fengxiaoyue/pen/NeZQRz/">
+                    Colors and Fonts</a
+                  >
+                  by Aria Fong (<a href="https://codepen.io/fengxiaoyue"
+                    >@fengxiaoyue</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://static.codepen.io/assets/embed/ei.js"
+              ></script>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col">
+            <h4>Step Two: Width and Height</h4>
+            <div>
+              <p
+                class="codepen"
+                data-height="650"
+                data-theme-id="0"
+                data-default-tab="css,result"
+                data-user="fengxiaoyue"
+                data-slug-hash="BvgXpY"
+                style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;"
+                data-pen-title="Width and Height"
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/fengxiaoyue/pen/BvgXpY/">
+                    Width and Height</a
+                  >
+                  by Aria Fong (<a href="https://codepen.io/fengxiaoyue"
+                    >@fengxiaoyue</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://static.codepen.io/assets/embed/ei.js"
+              ></script>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col"><h4>Step Three: Margin and Padding</h4></div>
+        </div>
+        <div class="row my-5">
+          <div class="col"><h4>Step Four: Display</h4></div>
+        </div>
+        <div class="row my-5">
+          <div class="col">
+            <h4>Step Five: Specificity</h4>
+            <ol>
+              <li class="text-danger">!important</li>
+              <li>inline styles</li>
+              <li>IDs</li>
+              <li>classes, attributes, and pseudo-classes</li>
+              <li>elements and pseudo-elements</li>
+            </ol>
+            <ul>
+              <li>Equal specificity: the latest rule counts</li>
+              <li>
+                ID selectors have a higher specificity than attribute selectors
+              </li>
+              <li>
+                Contextual selectors are more specific than a single element
+                selector
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="principles" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>software development principles</h1>
+            <h2>DRY</h2>
+            <span>Don't Repeat Yourself</span>
+            <blockquote class="blockquote">
+              <p class="mb-0">
+                "Every piece of knowledge must have a single, unambiguous,
+                authoritative representation within a system"
+              </p>
+            </blockquote>
+            <h2>Reusable Code</h2>
+            <ul>
+              <li>Bootstrap</li>
+              <li>WordPress</li>
+              <li>React</li>
+            </ul>
+            <span>
+              It's almost always a bad idea to use your own framework or no
+              framework at all in production.
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="repo" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>clone this repository!</h1>
+            <p>
+              You can check out the repository on
+              <a href="https://github.com/fengxiaoyue/codeweekend2019">
+                GitHub </a
+              >. To run this site, you'll need
+              <a href="https://nodejs.org/en/">Node</a>, and
+              <a href="https://git-scm.com/">Git</a>.
+            </p>
+            <pre class="bg-dark text-white rounded w-50">
+              <code>
+    git clone https://github.com/fengxiaoyue/codeweekend2019.git
+    cd codeweekend2019
+    npm install && npm start
+              </code>
+            </pre>
+            <span>
+              <p>
+                I used React and Bootstrap to make this presentation possible.
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
